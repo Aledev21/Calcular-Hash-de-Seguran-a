@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_ui7ESwm10yXS-7wDZNLjQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sha1-online.com" CVScreenId="3345b714-44cd-4103-a408-4ef6e0e19438" CvElementArea="677, 488, 105, 40" CvTextArea="712, 500, 34, 12" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="681, 491, 97, 32" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='aswift_2' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='ad_iframe' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='dismiss-button' tag='DIV' type='' class='ns-4ptoh-e-19 button-common close-button milo-animation delay-4' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Close' /&gt;" Guid="b2238ee4-878d-4c32-9db0-2f8c8031351c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA1 online' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3345b714-44cd-4103-a408-4ef6e0e19438" CvElementArea="677, 488, 105, 40" CvTextArea="712, 500, 34, 12" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="713, 499, 33, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='aswift_2' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='ad_iframe' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl tag='SPAN' type='' class='ns-4ptoh-e-21' aaname='Close' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Close' /&gt;" Guid="65697627-57fb-46b6-9f10-922eb50f6cb5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6dcc7554f7ce28e567788cbd2999e76c.png" xmlns="">04fhikYmrSUSCncOvA1EGHw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

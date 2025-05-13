@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bkVFdPTypEq6-VuYvW8X4A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/home" CVScreenId="17c4b572-9237-413d-a80d-b0cf16e427c7" CvTextArea="1200, 218, 51, 16" CvTextArgument="Log Out" CvType="Text" DesignTimeRectangle="1186, 200, 80, 50" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Log Out' parentid='bs-example-navbar-collapse-1' tag='A' /&gt;" Guid="ffc823e0-e6a3-4bb8-80d8-91e26ab99235" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="17c4b572-9237-413d-a80d-b0cf16e427c7" CvTextArea="1200, 218, 51, 16" CvTextArgument="Log Out" CvType="Text" DesignTimeRectangle="1200, 218, 51, 16" ElementType="Text" Guid="1ecfc96d-1b8b-43dc-8b8a-904802107a97" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5fd68fb91af562242d24913d53dc83af.png" xmlns="">0_lBb4Sj-wkiGHxpBRLJnjg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
