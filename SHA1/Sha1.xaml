@@ -94,100 +94,29 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Sha1" sap:VirtualizedContainerService.HintSize="1001,1010" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Sha1" sap:VirtualizedContainerService.HintSize="995,354" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome SHA1 online(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486,987" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="b3491b13-2bd0-454c-99ca-6a74af3c05b8" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome SHA1 online" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,331" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="c510fd33-d6eb-4ace-80a1-ccc43bde8c96" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="452,747" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheckElement DelayBefore="0" DisplayName="Check Element 'Close'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="418,189" sap2010:WorkflowViewState.IdRef="NCheckElement_1" ScopeIdentifier="b3491b13-2bd0-454c-99ca-6a74af3c05b8" Version="V4">
-              <uix:NCheckElement.Result>
-                <OutArgument x:TypeArguments="x:Boolean">
-                  <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">result</CSharpReference>
-                </OutArgument>
-              </uix:NCheckElement.Result>
-              <uix:NCheckElement.Target>
-                <uix:TargetAnchorable BrowserURL="sha1-online.com" CVScreenId="3345b714-44cd-4103-a408-4ef6e0e19438" ContentHash="_ui7ESwm10yXS-7wDZNLjQ" CvElementArea="677, 488, 105, 40" CvTextArea="712, 500, 34, 12" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="681, 491, 97, 32" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='aswift_2' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='ad_iframe' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='dismiss-button' tag='DIV' type='' class='ns-4ptoh-e-19 button-common close-button milo-animation delay-4' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Close' /&gt;" Guid="b2238ee4-878d-4c32-9db0-2f8c8031351c" InformativeScreenshot="6dcc7554f7ce28e567788cbd2999e76c.png" Reference="RwOjpDBUKkijC-XvoW0hGg/E6zjTunIHEiNCS8gYTnz4Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA1 online' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="3345b714-44cd-4103-a408-4ef6e0e19438" CvElementArea="677, 488, 105, 40" CvTextArea="712, 500, 34, 12" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="713, 499, 33, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='aswift_2' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='ad_iframe' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl tag='SPAN' type='' class='ns-4ptoh-e-21' aaname='Close' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Close' /&gt;" Guid="65697627-57fb-46b6-9f10-922eb50f6cb5" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NCheckElement.Target>
-            </uix:NCheckElement>
-            <If sap:VirtualizedContainerService.HintSize="418,496" sap2010:WorkflowViewState.IdRef="If_1">
-              <If.Condition>
-                <InArgument x:TypeArguments="x:Boolean">
-                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">result == true</CSharpValue>
-                </InArgument>
-              </If.Condition>
-              <If.Then>
-                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,276" sap2010:WorkflowViewState.IdRef="Sequence_3">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,216" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b3491b13-2bd0-454c-99ca-6a74af3c05b8" Version="V4">
-                    <uix:NClick.Target>
-                      <uix:TargetAnchorable BrowserURL="sha1-online.com" CVScreenId="3345b714-44cd-4103-a408-4ef6e0e19438" ContentHash="AbfyYlxFqUu-6BbQ5npU3A" CvElementArea="677, 488, 105, 40" CvTextArea="712, 500, 34, 12" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="681, 491, 97, 32" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='aswift_2' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='ad_iframe' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='dismiss-button' tag='DIV' type='' class='ns-4ptoh-e-19 button-common close-button milo-animation delay-4' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Close' /&gt;" Guid="acf47c17-4e1d-477c-b359-e6c9a94e2e1a" InformativeScreenshot="090b30a7a0c7ef794adbdfc93d0c0dc0.png" Reference="RwOjpDBUKkijC-XvoW0hGg/7Uzz0T2U606-JySbwsMd_w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA1 online' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
-                        <uix:TargetAnchorable.Anchors>
-                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                            <uix:Target CVScreenId="3345b714-44cd-4103-a408-4ef6e0e19438" CvElementArea="677, 488, 105, 40" CvTextArea="712, 500, 34, 12" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="713, 499, 33, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='aswift_2' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='ad_iframe' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl tag='SPAN' type='' class='ns-4ptoh-e-21' aaname='Close' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Close' /&gt;" Guid="61d4ed8c-108c-4fb4-bbff-2c5ed46b3a3b" SearchSteps="FuzzySelector, CV" />
-                          </scg:List>
-                        </uix:TargetAnchorable.Anchors>
-                        <uix:TargetAnchorable.PointOffset>
-                          <uix:PointOffset X="-2" Y="2" />
-                        </uix:TargetAnchorable.PointOffset>
-                      </uix:TargetAnchorable>
-                    </uix:NClick.Target>
-                    <uix:NClick.VerifyOptions>
-                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                        <uix:VerifyExecutionOptions.Retry>
-                          <InArgument x:TypeArguments="x:Boolean" />
-                        </uix:VerifyExecutionOptions.Retry>
-                        <uix:VerifyExecutionOptions.Timeout>
-                          <InArgument x:TypeArguments="x:Double" />
-                        </uix:VerifyExecutionOptions.Timeout>
-                      </uix:VerifyExecutionOptions>
-                    </uix:NClick.VerifyOptions>
-                  </uix:NClick>
-                </Sequence>
-              </If.Then>
-              <If.Else>
-                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_4">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                </Sequence>
-              </If.Else>
-            </If>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-8, -8, 1376, 744" BrowserType="Chrome" ContentHash="EoRtpBxB906FMIm3nUDWbw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABmSURBVDhPrczRDYAgDIRhH5nAFdx/B1zGJTBHcqY2FNrqw5ejCfm369wblaOG9QAevwWwJD9ahgG5K8sAlnBrroBcLRzAEu5UQO6nAKQDFAoQbnIHLNMA8fOIGfB6BUh/mnkCObXdA5Q5fU2oWVYAAAAASUVORK5CYII=" InformativeScreenshot="a821a67c029e06c9e426971a7741d3d0.jpg" Reference="RwOjpDBUKkijC-XvoW0hGg/pNCrlgax3UuH9w-PwcFzbw" Selector="&lt;html app='chrome.exe' url='http://www.sha1-online.com/#google_vignette' /&gt;" Version="V2">
-          <uix:TargetApp.Url>
-            <InArgument x:TypeArguments="x:String">
-              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">in_SHAUrl</CSharpValue>
-            </InArgument>
-          </uix:TargetApp.Url>
-        </uix:TargetApp>
+        <uix:TargetApp Area="-8, -8, 1376, 744" BrowserType="Chrome" ContentHash="77CSRy4QsUOTblFmNg1O9A" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABmSURBVDhPrczRDYAgDIRhH5nAFdx/B1zGJTBHcqY2FNrqw5ejCfm369wblaOG9QAevwWwJD9ahgG5K8sAlnBrroBcLRzAEu5UQO6nAKQDFAoQbnIHLNMA8fOIGfB6BUh/mnkCObXdA5Q5fU2oWVYAAAAASUVORK5CYII=" InformativeScreenshot="7efc1d026f9fa570cd9a67d981ac9ee2.jpg" Reference="RwOjpDBUKkijC-XvoW0hGg/6zHdR4Zy7EmrjDvYPnAVxw" Selector="&lt;html app='chrome.exe' title='SHA1 online' /&gt;" Url="http://www.sha1-online.com/" Version="V2" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
   </Sequence>

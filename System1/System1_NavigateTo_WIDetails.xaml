@@ -81,7 +81,7 @@
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Navegation_To_DetailsItens" sap:VirtualizedContainerService.HintSize="1297,697" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Navegation_To_DetailsItens" sap:VirtualizedContainerService.HintSize="995,697" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -93,7 +93,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe Sistema'" sap:VirtualizedContainerService.HintSize="502,591" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="9f35e0ab858bd3ac535723e00521e835" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;">
+      <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe Sistema'" sap:VirtualizedContainerService.HintSize="502,591" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="5f73abca121bf719242e2f1f59020721" Selector="&lt;html app='chrome.exe' url='https://acme-test.uipath.com/home' /&gt;">
         <ui:BrowserScope.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
